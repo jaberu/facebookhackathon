@@ -1,0 +1,118 @@
+.reaction-teaser {
+    height: auto;
+    width: 300px;
+    display: inline-block;
+    padding: 20px;
+}
+
+
+.reaction-teaser h2 {
+    margin: 0;
+}
+
+
+.reaction-teaser ul {
+    list-style-type: none;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 1.5em;
+    padding-top: 0;
+    margin-top: 0;
+    word-wrap: normal;
+}
+
+.reaction-teaser ul li {
+    display: inline-block;
+    min-width: 320px;
+    border-bottom: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.reaction-teaser ul li a {
+    display: table;
+    margin-top: 10px;
+}
+
+
+span.container {
+    display: inline-grid;
+    text-align: center;
+    float: left;
+}
+
+span-counter {
+    margin-left: -12px;
+}
+
+span.like {
+    background-image: url('img/like.jpg');
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 10px;
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+    content:"";
+
+}
+
+span.love {
+    background-image: url('img/love.jpg');
+    vertical-align: middle;
+
+    display: inline-block;
+    margin-right: 10px;
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+    content:"";
+
+}
+span.sad {
+    background-image: url('img/sad.jpg');
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 10px;
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+    content:"";
+
+}
+span.haha {
+    background-image: url('img/haha.jpg');
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 10px;
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+    content:"";
+
+}
+span.wow {
+    background-image: url('img/wow.jpg');
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 10px;
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+    content:"";
+
+}
+span.angry {
+    background-image: url('img/angry.jpg');
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 10px;
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+    content:"";
+
+}
+
+
