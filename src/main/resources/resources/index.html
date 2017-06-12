@@ -10,9 +10,9 @@
         url: "http://localhost:8080/posts?listIds=246379",
         success: function (data) {
 
+            var likePost;
             var angryPost;
             var hahaPost;
-            var likePost;
             var lovePost;
             var sadPost;
             var wowPost;
@@ -21,6 +21,12 @@
 
 
                 if (post.type === 'link') {
+
+                    if (likePost == null) {
+                        likePost = post;
+                    } else if (likePost.statistics.actual.likeCount < post.statistics.actual.likeCount) {
+                        likePost = post;
+                    }
 
                     if (angryPost == null) {
                         angryPost = post;
@@ -32,12 +38,6 @@
                         hahaPost = post;
                     } else if (hahaPost.statistics.actual.hahaCount < post.statistics.actual.hahaCount) {
                         hahaPost = post;
-                    }
-
-                    if (likePost == null) {
-                        likePost = post;
-                    } else if (likePost.statistics.actual.likeCount < post.statistics.actual.likeCount) {
-                        likePost = post;
                     }
 
                     if (lovePost == null) {
@@ -61,21 +61,21 @@
 
             });
 
-            post ("angry", angryPost);
-            post ("haha", hahaPost);
-            post ("like", likePost);
-            post ("love", lovePost);
-            post ("sad", sadPost);
-            post ("wow", wowPost);
+            post ("like", likePost, likePost.statistics.actual.likeCount);
+            post ("angry", angryPost, angryPost.statistics.actual.angryCount);
+            post ("haha", hahaPost, hahaPost.statistics.actual.hahaCount);
+            post ("love", lovePost, lovePost.statistics.actual.loveCount );
+            post ("sad", sadPost, sadPost.statistics.actual.sadCount);
+            post ("wow", wowPost, wowPost.statistics.actual.wowCount );
         }
     });
 
-    function post (type, post) {
+    function post (type, post, counter) {
 
             jQuery("ul.reaction-list").append('<li class="reaction-list-entry">' +
                     '<span class="container">' +
                     '<span class=' + type + '></span>' +
-                    '<span class="counter">123</span>' +
+                    '<span class="counter">' + counter +'</span>' +
                     '</span>' +
                     '<a href=' + post.link + '>' + post.title + '</a>' +
                     '</li>');
