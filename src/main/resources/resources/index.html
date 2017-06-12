@@ -1,5 +1,6 @@
 <html>
 <head>
+    <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
@@ -10,29 +11,19 @@
         success: function (data) {
 
             var angryPost;
-            var commentPost
             var hahaPost;
             var likePost;
             var lovePost;
             var sadPost;
-            var sharePost;
-            var thankfulPost;
             var wowPost;
 
             jQuery.each(data.result.posts, function (index, post) {
-
 
                 console.log("logggin" + post.id);
                 if (angryPost == null) {
                     angryPost = post;
                 } else if (angryPost.statistics.actual.angryCount < post.statistics.actual.angryCount) {
                     angryPost = post;
-                }
-
-                if (commentPost == null) {
-                    commentPost = post;
-                } else if (commentPost.statistics.actual.commentCount < post.statistics.actual.commentCount) {
-                    commentPost = post;
                 }
 
                 if (hahaPost == null) {
@@ -59,41 +50,44 @@
                     sadPost = post;
                 }
 
-                if (sharePost == null) {
-                    sharePost = post;
-                } else if (sharePost.statistics.actual.shareCount < post.statistics.actual.shareCount) {
-                    sharePost = post;
-                }
-
-                if (thankfulPost == null) {
-                    thankfulPost = post;
-                } else if (thankfulPost.statistics.actual.thankfulCount < post.statistics.actual.thankfulCount) {
-                    thankfulPost = post;
-                }
-
                 if (wowPost == null) {
                     wowPost = post;
                 } else if (wowPost.statistics.actual.thankfulCount < post.statistics.actual.wowCount) {
                     wowPost = post;
                 }
+
+
             });
 
             post ("angry", angryPost);
-            post ("comment", commentPost);
             post ("haha", hahaPost);
             post ("like", likePost);
             post ("love", lovePost);
             post ("sad", sadPost);
-            post ("share", sharePost);
-            post ("thankful", thankfulPost);
             post ("wow", wowPost);
         }
     });
 
+//ToDo: get both links for website and facebook, user choose wich version
+
+
     function post (type, post) {
-        console.warn(type + " " + post.title);
+            jQuery("ul.reaction-list").append('<li class="reaction-list-entry">' +
+                    '<span class="container">' +
+                    '<span class=' + type + '></span>' +
+                    '<span class="counter">123</span>' +
+                    '</span>' +
+                    '<a href=' + post.postUrl + '>' + post.title + '</a>' +
+                    '</li>');
     }
 
 </script>
+
+
+<div class="reaction-teaser">
+    <h2>Meinung auf Facebook</h2>
+     <ul class="reaction-list"></ul>
+</div>
+
 </body>
 </html>
