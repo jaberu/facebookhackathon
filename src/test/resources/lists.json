@@ -1,0 +1,132 @@
+{
+  "status": 200,
+  "result": {
+    "lists": [
+      {
+        "id": 246379,
+        "title": "Morgenpost Main Page",
+        "type": "LIST"
+      },
+      {
+        "id": 246380,
+        "title": "Deutsche Medien",
+        "type": "LIST"
+      },
+      {
+        "id": 246381,
+        "title": "Deutsche Prominente",
+        "type": "LIST"
+      },
+      {
+        "id": 246382,
+        "title": "Deutsche Regionalzeitungen",
+        "type": "LIST"
+      },
+      {
+        "id": 246383,
+        "title": "Deutsche Tech-Presse",
+        "type": "LIST"
+      },
+      {
+        "id": 246384,
+        "title": "Medien aus aller Welt",
+        "type": "LIST"
+      },
+      {
+        "id": 246385,
+        "title": "Medien Australien",
+        "type": "LIST"
+      },
+      {
+        "id": 246386,
+        "title": "Medien Frankreich",
+        "type": "LIST"
+      },
+      {
+        "id": 246387,
+        "title": "Medien GB",
+        "type": "LIST"
+      },
+      {
+        "id": 246388,
+        "title": "Medien USA",
+        "type": "LIST"
+      },
+      {
+        "id": 246389,
+        "title": "Swiss Newspapers - German",
+        "type": "LIST"
+      },
+      {
+        "id": 246390,
+        "title": "Trending Videos",
+        "type": "LIST"
+      },
+      {
+        "id": 246391,
+        "title": "US-Wahl",
+        "type": "LIST"
+      },
+      {
+        "id": 246392,
+        "title": "Wirtschaft",
+        "type": "LIST"
+      },
+      {
+        "id": 246393,
+        "title": "Angela Merkel",
+        "type": "SAVED_SEARCH"
+      },
+      {
+        "id": 246394,
+        "title": "Breaking News (American)",
+        "type": "SAVED_SEARCH"
+      },
+      {
+        "id": 246395,
+        "title": "Breaking News/ Eilmeldung (German)",
+        "type": "SAVED_SEARCH"
+      },
+      {
+        "id": 246396,
+        "title": "Emotion (Deutsch)",
+        "type": "SAVED_SEARCH"
+      },
+      {
+        "id": 246397,
+        "title": "German Referrers",
+        "type": "SAVED_SEARCH"
+      },
+      {
+        "id": 246398,
+        "title": "Referral - morgenpost.de",
+        "type": "SAVED_SEARCH"
+      },
+      {
+        "id": 246399,
+        "title": "Syrien",
+        "type": "SAVED_SEARCH"
+      },
+      {
+        "id": 247370,
+        "title": "Drone",
+        "type": "SAVED_SEARCH"
+      },
+      {
+        "id": 248440,
+        "title": "inspiring, amazing, heartwarming",
+        "type": "SAVED_SEARCH"
+      },
+      {
+        "id": 268174,
+        "title": "Reinickendorf",
+        "type": "LIST"
+      },
+      {
+        "id": 268178,
+        "title": "Berlin",
+        "type": "LIST"
+      }
+    ]
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "status": 200,
+  "result": {
+    "posts": [
+      {
+        "id": 11578589391,
+        "platformId": "46239931235_10155256959061236",
+        "platform": "Facebook",
+        "date": "2017-06-12 03:44:18",
+        "updated": "2017-06-12 09:23:54",
+        "type": "link",
+        "title": "AfD-Stadtrat lässt mehr als 50 Autos abschleppen",
+        "caption": "morgenpost.de",
+        "description": " ",
+        "message": "Sebastian Maack (AfD) will durchgreifen. Auch Trödelmärkte werden in Reinickendorf strenger kontrolliert.",
+        "expandedLinks": [
+          {
+            "original": "https://www.morgenpost.de/berlin/article210877755/AfD-Stadtrat-laesst-mehr-als-50-Autos-abschleppen.html?utm_term=Autofeed&utm_campaign=Echobox&utm_medium=Social&utm_source=Facebook#link_time=1497238907",
+            "expanded": "https://www.morgenpost.de/berlin/article210877755/AfD-Stadtrat-laesst-mehr-als-50-Autos-abschleppen.html?utm_term=Autofeed&utm_campaign=Echobox&utm_medium=Social&utm_source=Facebook#link_time=1497238907"
+          }
+        ],
+        "link": "https://www.morgenpost.de/berlin/article210877755/AfD-Stadtrat-laesst-mehr-als-50-Autos-abschleppen.html?utm_term=Autofeed&utm_campaign=Echobox&utm_medium=Social&utm_source=Facebook#link_time=1497238907",
+        "postUrl": "https://www.facebook.com/morgenpost/posts/10155256959061236",
+        "subscriberCount": 174366,
+        "score": 4.578125,
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://external.xx.fbcdn.net/safe_image.php?d=AQBNVWkZVfKlA_EP&w=130&h=130&url=https%3A%2F%2Fechobox-media.s3.amazonaws.com%2Fsocial_media_images%2F701%2F701-1497238907-t0mb532p7firk8j4ljjc7ffudqcq36rv.jpg&cfs=1&_nc_hash=AQCBEMWc6gMhKhOs",
+            "height": 130,
+            "width": 130,
+            "full": "https://external.xx.fbcdn.net/safe_image.php?d=AQD6NjiO9Z4Wgj62&url=https%3A%2F%2Fechobox-media.s3.amazonaws.com%2Fsocial_media_images%2F701%2F701-1497238907-t0mb532p7firk8j4ljjc7ffudqcq36rv.jpg&_nc_hash=AQDbLr2kbhDU49Om"
+          }
+        ],
+        "statistics": {
+          "actual": {
+            "likeCount": 192,
+            "shareCount": 29,
+            "commentCount": 43,
+            "loveCount": 12,
+            "wowCount": 3,
+            "hahaCount": 10,
+            "sadCount": 0,
+            "angryCount": 4,
+            "thankfulCount": 0
+          },
+          "expected": {
+            "likeCount": 19,
+            "shareCount": 7,
+            "commentCount": 10,
+            "loveCount": 3,
+            "wowCount": 2,
+            "hahaCount": 6,
+            "sadCount": 8,
+            "angryCount": 9,
+            "thankfulCount": 0
+          }
+        },
+        "account": {
+          "id": 74110,
+          "name": "Berliner Morgenpost",
+          "handle": "morgenpost",
+          "profileImage": "https://scontent.xx.fbcdn.net/v/t1.0-1/p50x50/33459_444925946235_4736558_n.jpg?oh=7ae3482bce5bfdbd59e4208551c28df5&oe=59D7A956",
+          "subscriberCount": 174366,
+          "url": "https://www.facebook.com/46239931235",
+          "platform": "Facebook",
+          "platformId": "46239931235",
+          "verified": true
+        }
+      },
+      {
+        "id": 11580729172,
+        "platformId": "46239931235_10155257264926236",
+        "platform": "Facebook",
+        "date": "2017-06-12 06:39:51",
+        "updated": "2017-06-12 09:23:54",
+        "type": "link",
+        "title": "24 Stunden bei Feuerwehr: „Hart wird es nach Mitternacht“",
+        "caption": "morgenpost.de",
+        "description": " ",
+        "message": "Berlins Feuerwehrmänner arbeiten in 24-Stunden-Schichten. Die Zahl der Überstunden steigt seit Jahren.",
+        "expandedLinks": [
+          {
+            "original": "https://www.morgenpost.de/berlin/article210877667/24-Stunden-bei-Feuerwehr-Hart-wird-es-nach-Mitternacht.html?utm_campaign=Echobox&utm_medium=Social&utm_source=Facebook#link_time=1497243346",
+            "expanded": "https://www.morgenpost.de/berlin/article210877667/24-Stunden-bei-Feuerwehr-Hart-wird-es-nach-Mitternacht.html?utm_campaign=Echobox&utm_medium=Social&utm_source=Facebook#link_time=1497243346"
+          }
+        ],
+        "link": "https://www.morgenpost.de/berlin/article210877667/24-Stunden-bei-Feuerwehr-Hart-wird-es-nach-Mitternacht.html?utm_campaign=Echobox&utm_medium=Social&utm_source=Facebook#link_time=1497243346",
+        "postUrl": "https://www.facebook.com/morgenpost/posts/10155257264926236",
+        "subscriberCount": 174366,
+        "score": 3.392156862745098,
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://external.xx.fbcdn.net/safe_image.php?d=AQCsEFzXwO4f7t5_&w=130&h=130&url=https%3A%2F%2Fechobox-media.s3.amazonaws.com%2Fsocial_media_images%2F701%2F701-1497243346-c115cbm5vvb2clm63sndca4tacrplchq.jpg&cfs=1&sx=176&sy=0&sw=461&sh=461&_nc_hash=AQDw1_n7qsYPyrAC",
+            "height": 130,
+            "width": 130,
+            "full": "https://external.xx.fbcdn.net/safe_image.php?d=AQC1dloML3Dgax6R&url=https%3A%2F%2Fechobox-media.s3.amazonaws.com%2Fsocial_media_images%2F701%2F701-1497243346-c115cbm5vvb2clm63sndca4tacrplchq.jpg&_nc_hash=AQCHzlh7WBdwTMWD"
+          }
+        ],
+        "statistics": {
+          "actual": {
+            "likeCount": 91,
+            "shareCount": 43,
+            "commentCount": 12,
+            "loveCount": 3,
+            "wowCount": 8,
+            "hahaCount": 0,
+            "sadCount": 6,
+            "angryCount": 10,
+            "thankfulCount": 0
+          },
+          "expected": {
+            "likeCount": 15,
+            "shareCount": 5,
+            "commentCount": 8,
+            "loveCount": 3,
+            "wowCount": 2,
+            "hahaCount": 6,
+            "sadCount": 4,
+            "angryCount": 8,
+            "thankfulCount": 0
+          }
+        },
+        "account": {
+          "id": 74110,
+          "name": "Berliner Morgenpost",
+          "handle": "morgenpost",
+          "profileImage": "https://scontent.xx.fbcdn.net/v/t1.0-1/p50x50/33459_444925946235_4736558_n.jpg?oh=7ae3482bce5bfdbd59e4208551c28df5&oe=59D7A956",
+          "subscriberCount": 174366,
+          "url": "https://www.facebook.com/46239931235",
+          "platform": "Facebook",
+          "platformId": "46239931235",
+          "verified": true
+        }
+      },
+      {
+        "id": 11582291764,
+        "platformId": "46239931235_10155257254961236",
+        "platform": "Facebook",
+        "date": "2017-06-12 08:33:00",
+        "updated": "2017-06-12 09:23:54",
+        "type": "native_video",
+        "message": "Die Zahl rechtswidriger Überstundenbei der Berliner Feuerwehr steigt. Die Einsatzkräfte arbeiten in 24-Stunden-Schichten am Limit: http://bit.ly/2s1CKoX",
+        "expandedLinks": [
+          {
+            "original": "http://bit.ly/2s1CKoX",
+            "expanded": "https://www.morgenpost.de/berlin/article210877667/24-Stunden-bei-Feuerwehr-Hart-wird-es-nach-Mitternacht.html"
+          },
+          {
+            "original": "https://www.facebook.com/morgenpost/videos/10155257254961236/",
+            "expanded": "https://www.facebook.com/morgenpost/videos/10155257254961236/"
+          }
+        ],
+        "link": "https://www.facebook.com/morgenpost/videos/10155257254961236/",
+        "postUrl": "https://www.facebook.com/morgenpost/posts/10155257254961236",
+        "subscriberCount": 174366,
+        "score": 1.7659574468085106,
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.xx.fbcdn.net/v/t42.1790-2/19176546_947342028738827_7381443705300844544_n.mp4?efg=eyJybHIiOjMwNywicmxhIjo3MzUsInZlbmNvZGVfdGFnIjoic3ZlX3NkIn0%3D&rl=307&vabr=171&oh=421b04cad11a8d5f554db94f3043936c&oe=59411EFC",
+            "height": 0,
+            "width": 0
+          },
+          {
+            "type": "photo",
+            "url": "https://scontent.xx.fbcdn.net/v/t15.0-10/s720x720/19144801_10155257270596236_4652071256609259520_n.jpg?oh=325819ece03f4bc8a7f7484fbd1942d0&oe=59A1BC32",
+            "height": 405,
+            "width": 720,
+            "full": "https://scontent.xx.fbcdn.net/v/t15.0-10/s720x720/19144801_10155257270596236_4652071256609259520_n.jpg?oh=325819ece03f4bc8a7f7484fbd1942d0&oe=59A1BC32"
+          }
+        ],
+        "statistics": {
+          "actual": {
+            "likeCount": 34,
+            "shareCount": 29,
+            "commentCount": 6,
+            "loveCount": 3,
+            "wowCount": 1,
+            "hahaCount": 0,
+            "sadCount": 6,
+            "angryCount": 4,
+            "thankfulCount": 0
+          },
+          "expected": {
+            "likeCount": 17,
+            "shareCount": 6,
+            "commentCount": 6,
+            "loveCount": 4,
+            "wowCount": 3,
+            "hahaCount": 5,
+            "sadCount": 3,
+            "angryCount": 3,
+            "thankfulCount": 0
+          }
+        },
+        "account": {
+          "id": 74110,
+          "name": "Berliner Morgenpost",
+          "handle": "morgenpost",
+          "profileImage": "https://scontent.xx.fbcdn.net/v/t1.0-1/p50x50/33459_444925946235_4736558_n.jpg?oh=7ae3482bce5bfdbd59e4208551c28df5&oe=59D7A956",
+          "subscriberCount": 174366,
+          "url": "https://www.facebook.com/46239931235",
+          "platform": "Facebook",
+          "platformId": "46239931235",
+          "verified": true
+        }
+      },
+      {
+        "id": 11582291765,
+        "platformId": "46239931235_10155257369816236",
+        "platform": "Facebook",
+        "date": "2017-06-12 08:24:00",
+        "updated": "2017-06-12 09:23:54",
+        "type": "video",
+        "caption": "media.giphy.com",
+        "message": "Wenn zu gut gelaunte Kollegen am Montagmorgen nerven.",
+        "expandedLinks": [
+          {
+            "original": "http://gph.is/2qggpRT",
+            "expanded": "https://giphy.com/gifs/reactionseditor-snow-white-stare-xUA7baCMQfFkvG5BdK"
+          }
+        ],
+        "link": "http://gph.is/2qggpRT",
+        "postUrl": "https://www.facebook.com/morgenpost/posts/10155257369816236",
+        "subscriberCount": 174366,
+        "score": 1.0384615384615385,
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://external.xx.fbcdn.net/safe_image.php?d=AQCxIQEUBALMPSs3&url=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FxUA7baCMQfFkvG5BdK%2Fgiphy-downsized-large.gif&_nc_hash=AQAahM0KsthY-qU6",
+            "height": 274,
+            "width": 252,
+            "full": "https://external.xx.fbcdn.net/safe_image.php?d=AQCxIQEUBALMPSs3&url=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FxUA7baCMQfFkvG5BdK%2Fgiphy-downsized-large.gif&_nc_hash=AQAahM0KsthY-qU6"
+          }
+        ],
+        "statistics": {
+          "actual": {
+            "likeCount": 57,
+            "shareCount": 20,
+            "commentCount": 19,
+            "loveCount": 0,
+            "wowCount": 1,
+            "hahaCount": 38,
+            "sadCount": 0,
+            "angryCount": 0,
+            "thankfulCount": 0
+          },
+          "expected": {
+            "likeCount": 55,
+            "shareCount": 19,
+            "comment100  8581  100  8581    0     0   7423      0  0:00:01  0:00:01 --:--:--  8195ankfulCount": 0
+          }
+        },
+        "account": {
+          "id": 74110,
+          "name": "Berliner Morgenpost",
+          "handle": "morgenpost",
+          "profileImage": "https://scontent.xx.fbcdn.net/v/t1.0-1/p50x50/33459_444925946235_4736558_n.jpg?oh=7ae3482bce5bfdbd59e4208551c28df5&oe=59D7A956",
+          "subscriberCount": 174366,
+          "url": "https://www.facebook.com/46239931235",
+          "platform": "Facebook",
+          "platformId": "46239931235",
+          "verified": true
+        }
+      }
+    ],
+    "pagination": {}
+  }
+}
