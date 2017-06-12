@@ -55,25 +55,25 @@
 
                 if (sadPost == null) {
                     sadPost = post;
-                } else if (sadPost.statistics.actual.sadPost < post.statistics.actual.sadPost) {
+                } else if (sadPost.statistics.actual.sadCount < post.statistics.actual.sadCount) {
                     sadPost = post;
                 }
 
                 if (sharePost == null) {
                     sharePost = post;
-                } else if (sharePost.statistics.actual.sharePost < post.statistics.actual.sharePost) {
+                } else if (sharePost.statistics.actual.shareCount < post.statistics.actual.shareCount) {
                     sharePost = post;
                 }
 
                 if (thankfulPost == null) {
                     thankfulPost = post;
-                } else if (thankfulPost.statistics.actual.thankfulPost < post.statistics.actual.thankfulPost) {
+                } else if (thankfulPost.statistics.actual.thankfulCount < post.statistics.actual.thankfulCount) {
                     thankfulPost = post;
                 }
 
                 if (wowPost == null) {
                     wowPost = post;
-                } else if (wowPost.statistics.actual.thankfulPost < post.statistics.actual.wowPost) {
+                } else if (wowPost.statistics.actual.thankfulCount < post.statistics.actual.wowCount) {
                     wowPost = post;
                 }
             });
