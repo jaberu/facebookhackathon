@@ -47,7 +47,7 @@ public class CrowdTangleProxy {
         b.setSSLContext( sslContext);
 
         HttpClient client = b.build();
-        HttpGet request = new HttpGet("https://api.crowdtangle.com/posts?listIds="+listIds);
+        HttpGet request = new HttpGet("https://api.crowdtangle.com/posts?startDate=2017-05-01T00:00:00&listIds="+listIds);
         request.addHeader("x-api-token", "PuHehOp3YJXHmhXrLSat7nfK8sM6jxUKKLjyXhMa");
         HttpResponse forward = client.execute(request);
         HttpUtils.forward(forward, response);
