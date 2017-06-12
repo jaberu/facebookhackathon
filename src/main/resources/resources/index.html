@@ -7,7 +7,7 @@
     $.get({
         dataType: "json",
         url: "http://localhost:8080/posts?listIds=246379",
-        success: function(data) {
+        success: function (data) {
 
             var angryPost;
             var commentPost
@@ -19,11 +19,81 @@
             var thankfulPost;
             var wowPost;
 
-            jQuery.each(data.result.posts, function(index, post){
+            jQuery.each(data.result.posts, function (index, post) {
+
+
                 console.log("logggin" + post.id);
+                if (angryPost == null) {
+                    angryPost = post;
+                } else if (angryPost.statistics.actual.angryCount < post.statistics.actual.angryCount) {
+                    angryPost = post;
+                }
+
+                if (commentPost == null) {
+                    commentPost = post;
+                } else if (commentPost.statistics.actual.commentCount < post.statistics.actual.commentCount) {
+                    commentPost = post;
+                }
+
+                if (hahaPost == null) {
+                    hahaPost = post;
+                } else if (hahaPost.statistics.actual.hahaCount < post.statistics.actual.hahaCount) {
+                    hahaPost = post;
+                }
+
+                if (likePost == null) {
+                    likePost = post;
+                } else if (likePost.statistics.actual.likeCount < post.statistics.actual.likeCount) {
+                    likePost = post;
+                }
+
+                if (lovePost == null) {
+                    lovePost = post;
+                } else if (lovePost.statistics.actual.loveCount < post.statistics.actual.loveCount) {
+                    lovePost = post;
+                }
+
+                if (sadPost == null) {
+                    sadPost = post;
+                } else if (sadPost.statistics.actual.sadPost < post.statistics.actual.sadPost) {
+                    sadPost = post;
+                }
+
+                if (sharePost == null) {
+                    sharePost = post;
+                } else if (sharePost.statistics.actual.sharePost < post.statistics.actual.sharePost) {
+                    sharePost = post;
+                }
+
+                if (thankfulPost == null) {
+                    thankfulPost = post;
+                } else if (thankfulPost.statistics.actual.thankfulPost < post.statistics.actual.thankfulPost) {
+                    thankfulPost = post;
+                }
+
+                if (wowPost == null) {
+                    wowPost = post;
+                } else if (wowPost.statistics.actual.thankfulPost < post.statistics.actual.wowPost) {
+                    wowPost = post;
+                }
             });
+
+            post ("angry", angryPost);
+            post ("comment", commentPost);
+            post ("haha", hahaPost);
+            post ("like", likePost);
+            post ("love", lovePost);
+            post ("sad", sadPost);
+            post ("share", sharePost);
+            post ("thankful", thankfulPost);
+            post ("wow", wowPost);
         }
     });
+
+    function post (type, post) {
+        console.warn(type + " " + post.title);
+    }
+
 </script>
 </body>
 </html>
