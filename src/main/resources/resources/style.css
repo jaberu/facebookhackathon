@@ -46,9 +46,10 @@ span.container {
     display: inline-grid;
     text-align: center;
     float: left;
+    margin-right: .5em;
 }
 
-span-counter {
+span.counter {
     margin-left: -12px;
 }
 
