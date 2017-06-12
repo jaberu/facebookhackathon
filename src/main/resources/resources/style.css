@@ -14,8 +14,9 @@
 .reaction-teaser ul {
     list-style-type: none;
     padding: 10px;
-    font-size: 18px;
-    line-height: 1.5em;
+    color: #666;
+    font-size: 19px;
+    font-family: Georgia,serif;
     padding-top: 0;
     margin-top: 0;
     word-wrap: normal;
@@ -33,6 +34,12 @@
 .reaction-teaser ul li a {
     display: table;
     margin-top: 10px;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.3;
+    color: #000;
+    font-family: Arial;
+    text-decoration: none;
 }
 
 

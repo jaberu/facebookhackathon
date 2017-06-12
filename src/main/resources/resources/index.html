@@ -72,12 +72,13 @@
 
 
     function post (type, post) {
-        jQuery("ul.reaction-list").append('<li class="reaction-list-entry">' +
-                '<span class="container">' +
-                '<span class=' + type + '></span>' +
-                '<span class="counter">123</span>' +
-                '</span><a href=' + post.postUrl + '>' + post.title + '</a>' +
-                '</li>');
+            jQuery("ul.reaction-list").append('<li class="reaction-list-entry">' +
+                    '<span class="container">' +
+                    '<span class=' + type + '></span>' +
+                    '<span class="counter">123</span>' +
+                    '</span>' +
+                    '<a href=' + post.postUrl + '>' + post.title + '</a>' +
+                    '</li>');
     }
 
 </script>
