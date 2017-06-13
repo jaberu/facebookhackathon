@@ -10,79 +10,78 @@
         url: "http://localhost:8080/postsgit ",
         success: function (data) {
 
+            var likePost;
             var angryPost;
             var hahaPost;
-            var likePost;
             var lovePost;
             var sadPost;
             var wowPost;
 
             jQuery.each(data.result.posts, function (index, post) {
 
-                console.log("logggin" + post.id);
-                if (angryPost == null) {
-                    angryPost = post;
-                } else if (angryPost.statistics.actual.angryCount < post.statistics.actual.angryCount) {
-                    angryPost = post;
-                }
 
-                if (hahaPost == null) {
-                    hahaPost = post;
-                } else if (hahaPost.statistics.actual.hahaCount < post.statistics.actual.hahaCount) {
-                    hahaPost = post;
-                }
+                if (post.type === 'link') {
 
-                if (likePost == null) {
-                    likePost = post;
-                } else if (likePost.statistics.actual.likeCount < post.statistics.actual.likeCount) {
-                    likePost = post;
-                }
+                    if (likePost == null) {
+                        likePost = post;
+                    } else if (likePost.statistics.actual.likeCount < post.statistics.actual.likeCount) {
+                        likePost = post;
+                    }
 
-                if (lovePost == null) {
-                    lovePost = post;
-                } else if (lovePost.statistics.actual.loveCount < post.statistics.actual.loveCount) {
-                    lovePost = post;
-                }
+                    if (angryPost == null) {
+                        angryPost = post;
+                    } else if (angryPost.statistics.actual.angryCount < post.statistics.actual.angryCount) {
+                        angryPost = post;
+                    }
 
-                if (sadPost == null) {
-                    sadPost = post;
-                } else if (sadPost.statistics.actual.sadCount < post.statistics.actual.sadCount) {
-                    sadPost = post;
-                }
+                    if (hahaPost == null) {
+                        hahaPost = post;
+                    } else if (hahaPost.statistics.actual.hahaCount < post.statistics.actual.hahaCount) {
+                        hahaPost = post;
+                    }
 
-                if (wowPost == null) {
-                    wowPost = post;
-                } else if (wowPost.statistics.actual.thankfulCount < post.statistics.actual.wowCount) {
-                    wowPost = post;
-                }
+                    if (lovePost == null) {
+                        lovePost = post;
+                    } else if (lovePost.statistics.actual.loveCount < post.statistics.actual.loveCount) {
+                        lovePost = post;
+                    }
 
+                    if (sadPost == null) {
+                        sadPost = post;
+                    } else if (sadPost.statistics.actual.sadCount < post.statistics.actual.sadCount) {
+                        sadPost = post;
+                    }
+
+                    if (wowPost == null) {
+                        wowPost = post;
+                    } else if (wowPost.statistics.actual.wowCount < post.statistics.actual.wowCount) {
+                        wowPost = post;
+                    }
+                }
 
             });
 
-            post ("angry", angryPost);
-            post ("haha", hahaPost);
-            post ("like", likePost);
-            post ("love", lovePost);
-            post ("sad", sadPost);
-            post ("wow", wowPost);
+            post ("like", likePost, likePost.statistics.actual.likeCount);
+            post ("angry", angryPost, angryPost.statistics.actual.angryCount);
+            post ("haha", hahaPost, hahaPost.statistics.actual.hahaCount);
+            post ("love", lovePost, lovePost.statistics.actual.loveCount );
+            post ("sad", sadPost, sadPost.statistics.actual.sadCount);
+            post ("wow", wowPost, wowPost.statistics.actual.wowCount );
         }
     });
 
-//ToDo: get both links for website and facebook, user choose wich version
+    function post (type, post, counter) {
 
-
-    function post (type, post) {
             jQuery("ul.reaction-list").append('<li class="reaction-list-entry">' +
                     '<span class="container">' +
                     '<span class=' + type + '></span>' +
-                    '<span class="counter">123</span>' +
+                    '<span class="counter">' + counter +'</span>' +
                     '</span>' +
-                    '<a href=' + post.postUrl + '>' + post.title + '</a>' +
+                    '<a href=' + post.link + '>' + post.title + '</a>' +
                     '</li>');
     }
 
 </script>
-
 
 <div class="reaction-teaser">
     <h2>Meinung auf Facebook</h2>

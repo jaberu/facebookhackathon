@@ -13,7 +13,7 @@
 
 .reaction-teaser ul {
     list-style-type: none;
-    padding: 10px;
+    padding: 0;
     color: #666;
     font-size: 19px;
     font-family: Georgia,serif;
@@ -26,14 +26,13 @@
     display: inline-block;
     min-width: 320px;
     border-bottom: 2px solid black;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
 }
 
 
 .reaction-teaser ul li a {
     display: table;
-    margin-top: 10px;
     font-size: 1em;
     font-weight: normal;
     line-height: 1.3;
@@ -47,9 +46,10 @@ span.container {
     display: inline-grid;
     text-align: center;
     float: left;
+    margin-right: .5em;
 }
 
-span-counter {
+span.counter {
     margin-left: -12px;
 }
 
